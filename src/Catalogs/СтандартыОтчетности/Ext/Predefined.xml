@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.4">
+	<Item id="9cd5f2db-1b18-4b92-9884-344d03640436">
+		<Name>МСФО</Name>
+		<Code>000000002</Code>
+		<Description>МСФО</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aa4a8c17-2cbf-4437-bfe1-3589f844a02d">
+		<Name>РСБУ</Name>
+		<Code>000000001</Code>
+		<Description>РСБУ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Наименование" id="1">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<LabelDecoration name="Образец" id="15">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать цвет...</v8:content>
+				</v8:item>
+			</Title>
+			<Hyperlink>true</Hyperlink>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<ContextMenu name="ОбразецКонтекстноеМеню" id="16"/>
+			<ExtendedTooltip name="ОбразецРасширеннаяПодсказка" id="17"/>
+			<Events>
+				<Event name="Click">ОбразецНажатие</Event>
+			</Events>
+		</LabelDecoration>
+		<UsualGroup name="ГруппаКомпонентыЦвета" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа компоненты цвета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа компоненты цвета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКомпонентыЦветаРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<InputField name="Красный" id="4">
+					<DataPath>1/0:20bdefee-d99e-491c-93f5-b96e7b503a71</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КрасныйКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="КрасныйРасширеннаяПодсказка" id="6"/>
+					<Events>
+						<Event name="OnChange">КрасныйПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="Зеленый" id="7">
+					<DataPath>1/0:3a90c824-28ef-458a-9691-0bdceecf0bcc</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗеленыйКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ЗеленыйРасширеннаяПодсказка" id="9"/>
+					<Events>
+						<Event name="OnChange">ЗеленыйПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="Синий" id="10">
+					<DataPath>1/0:eaa6a31e-f320-4f3c-834c-af005ebde949</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СинийКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="СинийРасширеннаяПодсказка" id="12"/>
+					<Events>
+						<Event name="OnChange">СинийПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Цвета</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
