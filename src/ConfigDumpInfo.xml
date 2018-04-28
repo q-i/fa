@@ -44,8 +44,8 @@
 		<Metadata name="Configuration.ФинансовыйАнализ.HomePageWorkArea" id="abcdbee8-819c-4da1-837c-e93563be24e2.8" configVersion="f4139cf6c335e344a516ccf4b473eafa00000000"/>
 		<Metadata name="Constant.РазрешенАвторасчет" id="bf4d18d6-23dc-4818-a381-ba2265b816e1" configVersion="b3caa551d8ac914496ed9ae2950ebe0700000000"/>
 		<Metadata name="DataProcessor.ЗагрузкаКотировокММВБ" id="c95a4b81-b900-4af2-b8a6-cbf72cd3f5bc" configVersion="227fb185be09d941adb5a7377beaf93700000000"/>
-		<Metadata name="DataProcessor.ЗагрузкаКотировокММВБ.Form.Форма" id="33c33636-5fd6-4e11-be6f-39224b0f858c" configVersion="da0ef70d203333499387fd0ea1434d6d00000000"/>
-		<Metadata name="DataProcessor.ЗагрузкаКотировокММВБ.Form.Форма.Form" id="33c33636-5fd6-4e11-be6f-39224b0f858c.0" configVersion="a3a0ecc522af2c498cb94a83ad0d2b7d00000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКотировокММВБ.Form.Форма" id="33c33636-5fd6-4e11-be6f-39224b0f858c" configVersion="89e52fb423b469438088296b181325b400000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКотировокММВБ.Form.Форма.Form" id="33c33636-5fd6-4e11-be6f-39224b0f858c.0" configVersion="3804668fcaccfa4f92a0da62e169d19200000000"/>
 		<Metadata name="DefinedType.ТипЗначенияПоказателя" id="b62a56ca-8ddc-450d-8f3d-7d6bb7c6105c" configVersion="e1a3885f4bb0b14fa1cd8e5b0e098e2a00000000"/>
 		<Metadata name="Document.ВводПоказателей" id="cb24cdf3-5569-4501-856a-a134d73571ef" configVersion="4e655f350e7d424d8cfadcbe1168cd1800000000">
 			<Metadata name="Document.ВводПоказателей.Attribute.Комментарий" id="06caa707-f69c-48de-b171-0bee6417f5a2"/>
@@ -60,8 +60,8 @@
 			<Metadata name="Document.ВводПоказателей.TabularSection.Показатели.Attribute.Комментарий" id="a919239e-0ca5-453f-850a-37eadd23c126"/>
 			<Metadata name="Document.ВводПоказателей.Attribute.РазрядностьДробнойЧасти" id="b34df192-4ea5-42d7-96e6-a3b8939739de"/>
 		</Metadata>
-		<Metadata name="Document.ВводПоказателей.Form.ФормаДокумента" id="f563f6d8-2dce-4a47-8ef5-4fc0bb5589d5" configVersion="ba555f7f88a32141af7132172f3cedbe00000000"/>
-		<Metadata name="Document.ВводПоказателей.Form.ФормаДокумента.Form" id="f563f6d8-2dce-4a47-8ef5-4fc0bb5589d5.0" configVersion="20e038a189df4b488b5bfd92fa1b833800000000"/>
+		<Metadata name="Document.ВводПоказателей.Form.ФормаДокумента" id="f563f6d8-2dce-4a47-8ef5-4fc0bb5589d5" configVersion="9c696dd6fa24754abcce48f70c664ce200000000"/>
+		<Metadata name="Document.ВводПоказателей.Form.ФормаДокумента.Form" id="f563f6d8-2dce-4a47-8ef5-4fc0bb5589d5.0" configVersion="474233f9a157824ca6f8661b04bc322b00000000"/>
 		<Metadata name="Document.ВводПоказателей.ObjectModule" id="cb24cdf3-5569-4501-856a-a134d73571ef.0" configVersion="eb2847faccf7904d8f9771195c4d042100000000"/>
 		<Metadata name="Enum.Периодичность" id="8750c7e4-c887-42f9-960f-2448a024edce" configVersion="28d3f97504614e46a892860e98926c3300000000">
 			<Metadata name="Enum.Периодичность.EnumValue.Месяц" id="9d436ab2-95cb-4db6-b69b-643cb7f130fd"/>
