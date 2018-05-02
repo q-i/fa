@@ -138,6 +138,7 @@
 			<Enum>Периодичность</Enum>
 			<Enum>СпособыРасчетаИерархии</Enum>
 			<Report>РасчетПоказателей</Report>
+			<Report>СтатистикаВводаДанных</Report>
 			<DataProcessor>ЗагрузкаКотировокММВБ</DataProcessor>
 			<InformationRegister>ЗначенияПоказателей</InformationRegister>
 		</ChildObjects>
