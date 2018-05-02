@@ -26,6 +26,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.РазрешенАвторасчет</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Цвета</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаКотировокММВБ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.СтатистикаВводаДанных</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
