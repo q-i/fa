@@ -3,9 +3,10 @@
 	<ConfigVersions>
 		<Metadata name="Catalog.ВидыОтчетности" id="77457e2f-380b-4146-a968-893e114c41a8" configVersion="2d0e7bf72018a74ebeece773eec779af00000000"/>
 		<Metadata name="Catalog.ВидыОтчетности.Predefined" id="77457e2f-380b-4146-a968-893e114c41a8.1c" configVersion="b76bc56992f2474ea6f42b06e956a5b500000000"/>
-		<Metadata name="Catalog.Контрагенты" id="60af5ac4-b85e-4012-99f3-771f96757919" configVersion="5f0ed6fd9ad29247b80f7637bd94454700000000">
+		<Metadata name="Catalog.Контрагенты" id="60af5ac4-b85e-4012-99f3-771f96757919" configVersion="412a1eb860b944468661426f48f72e7d00000000">
 			<Metadata name="Catalog.Контрагенты.Attribute.ТикерАП" id="209e8703-e575-4f81-ad69-2a5a2b1520e6"/>
 			<Metadata name="Catalog.Контрагенты.Attribute.ТикерАО" id="627ef76a-2989-432a-bed8-6f7b6da0a1b0"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.Сайт" id="c9286bb1-3e4b-4722-a26e-23aaff8dfad7"/>
 			<Metadata name="Catalog.Контрагенты.Attribute.Комментарий" id="f0f27671-0ec2-409f-9ef7-92f81920ee74"/>
 		</Metadata>
 		<Metadata name="Catalog.Показатели" id="16414703-b6a3-4e5e-b1af-cee8296229ba" configVersion="60477a85b1a99a4bbd72187356ab8e9200000000">
@@ -40,8 +41,8 @@
 		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="14b0c249-ca4b-475f-8931-5fed5b737a60.0" configVersion="fc08fbbf36a4f64cbee73e465a3895c200000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияСервер" id="1f64c794-d146-423e-b88a-19fcf25c4662" configVersion="551a2e23ca217343b852acec6778af1500000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияСервер.Module" id="1f64c794-d146-423e-b88a-19fcf25c4662.0" configVersion="19b9bfbd567a8548b7aac191162cc9e800000000"/>
-		<Metadata name="Configuration.ФинансовыйАнализ" id="58e812d8-fa1b-413b-88c8-963df994874b" configVersion="2809dafd9f1eeb49b4711d20e239dd6800000000"/>
-		<Metadata name="Configuration.ФинансовыйАнализ.HomePageWorkArea" id="abcdbee8-819c-4da1-837c-e93563be24e2.8" configVersion="f4139cf6c335e344a516ccf4b473eafa00000000"/>
+		<Metadata name="Configuration.ФинансовыйАнализ" id="58e812d8-fa1b-413b-88c8-963df994874b" configVersion="f36a93cec800d644b98444e7a6e78e0700000000"/>
+		<Metadata name="Configuration.ФинансовыйАнализ.HomePageWorkArea" id="abcdbee8-819c-4da1-837c-e93563be24e2.8" configVersion="3f11d3470f53c941a4dd38465408159100000000"/>
 		<Metadata name="Constant.РазрешенАвторасчет" id="bf4d18d6-23dc-4818-a381-ba2265b816e1" configVersion="b3caa551d8ac914496ed9ae2950ebe0700000000"/>
 		<Metadata name="DataProcessor.ЗагрузкаКотировокММВБ" id="c95a4b81-b900-4af2-b8a6-cbf72cd3f5bc" configVersion="227fb185be09d941adb5a7377beaf93700000000"/>
 		<Metadata name="DataProcessor.ЗагрузкаКотировокММВБ.Form.Форма" id="33c33636-5fd6-4e11-be6f-39224b0f858c" configVersion="89e52fb423b469438088296b181325b400000000"/>
@@ -98,8 +99,8 @@
 		<Metadata name="Report.РасчетПоказателей.Template.ОсновнаяСхемаКомпоновкиДанных" id="d9ee5e1a-804f-4d52-a50e-d08d208cc411" configVersion="cf6a96f949f9d6469e50ceec7f332e5200000000"/>
 		<Metadata name="Report.РасчетПоказателей.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="d9ee5e1a-804f-4d52-a50e-d08d208cc411.0" configVersion="7af71c5b3b29d34d9b74ad4e740146a700000000"/>
 		<Metadata name="Report.СтатистикаВводаДанных" id="a28eeff9-e480-4379-acea-e905d01be50c" configVersion="06b5c53ae9c2f14f958822ac7a106d9900000000"/>
-		<Metadata name="Report.СтатистикаВводаДанных.Template.ОсновнаяСхемаКомпоновкиДанных" id="13f4800b-668d-46e4-af9f-fdb756e1a8d7" configVersion="fa4ffdb988df004b8d6361b220042bad00000000"/>
-		<Metadata name="Report.СтатистикаВводаДанных.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="13f4800b-668d-46e4-af9f-fdb756e1a8d7.0" configVersion="4ded322fe84c5b4aae0c3306850f1ff100000000"/>
+		<Metadata name="Report.СтатистикаВводаДанных.Template.ОсновнаяСхемаКомпоновкиДанных" id="13f4800b-668d-46e4-af9f-fdb756e1a8d7" configVersion="402919b54227184cbfc1e06eb214742100000000"/>
+		<Metadata name="Report.СтатистикаВводаДанных.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="13f4800b-668d-46e4-af9f-fdb756e1a8d7.0" configVersion="1440909fe38265408cefd80249386c3100000000"/>
 		<Metadata name="Subsystem.АнализПоказателей" id="0dd19569-0e8d-4a4a-817a-857078cb3338" configVersion="7d0302bb9b6af847aa99c9cbfdbe0ecc00000000"/>
 		<Metadata name="Subsystem.АнализПоказателей.CommandInterface" id="0dd19569-0e8d-4a4a-817a-857078cb3338.1" configVersion="bdf79e379070d840aaf0df491bb3e19c00000000"/>
 	</ConfigVersions>
