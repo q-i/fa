@@ -25,39 +25,96 @@
 			<CommandSource>Form</CommandSource>
 			<ExtendedTooltip name="ОсновнаяКоманднаяПанельРасширеннаяПодсказка" id="2"/>
 		</CommandBar>
-		<UsualGroup name="Группа1" id="17">
+		<UsualGroup name="ГруппаШапка" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="18"/>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="26"/>
 			<ChildItems>
-				<InputField name="Период" id="14">
-					<DataPath>Период</DataPath>
-					<ContextMenu name="ПериодКонтекстноеМеню" id="15"/>
-					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="16"/>
-					<Events>
-						<Event name="OnChange">ПериодПриИзменении</Event>
-					</Events>
-				</InputField>
-				<CheckBoxField name="ФлагИспользоватьВыделениеЦветом" id="19">
-					<DataPath>Отчет.ФлагИспользоватьВыделениеЦветом</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ФлагИспользоватьВыделениеЦветомКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="ФлагИспользоватьВыделениеЦветомРасширеннаяПодсказка" id="21"/>
-				</CheckBoxField>
+				<UsualGroup name="ГруппаЛево" id="17">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа лево</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа лево</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЛевоРасширеннаяПодсказка" id="18"/>
+					<ChildItems>
+						<InputField name="Период" id="14">
+							<DataPath>Период</DataPath>
+							<ContextMenu name="ПериодКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="16"/>
+							<Events>
+								<Event name="OnChange">ПериодПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="Периодичность" id="3">
+							<DataPath>Отчет.Периодичность</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПериодичностьКонтекстноеМеню" id="4"/>
+							<ExtendedTooltip name="ПериодичностьРасширеннаяПодсказка" id="5"/>
+						</InputField>
+						<InputField name="СтандартОтчетности" id="6">
+							<DataPath>Отчет.СтандартОтчетности</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СтандартОтчетностиКонтекстноеМеню" id="7"/>
+							<ExtendedTooltip name="СтандартОтчетностиРасширеннаяПодсказка" id="8"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПраво" id="27">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа право</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа право</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПравоРасширеннаяПодсказка" id="28"/>
+					<ChildItems>
+						<CheckBoxField name="ФлагИспользоватьВыделениеЦветом" id="19">
+							<DataPath>Отчет.ФлагИспользоватьВыделениеЦветом</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ФлагИспользоватьВыделениеЦветомКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ФлагИспользоватьВыделениеЦветомРасширеннаяПодсказка" id="21"/>
+						</CheckBoxField>
+						<InputField name="КолвоПериодовДляОсмотраНазад" id="22">
+							<DataPath>Отчет.КолвоПериодовДляОсмотраНазад</DataPath>
+							<ContextMenu name="КолвоПериодовДляОсмотраНазадКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="КолвоПериодовДляОсмотраНазадРасширеннаяПодсказка" id="24"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
-		<InputField name="Периодичность" id="3">
-			<DataPath>Отчет.Периодичность</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ПериодичностьКонтекстноеМеню" id="4"/>
-			<ExtendedTooltip name="ПериодичностьРасширеннаяПодсказка" id="5"/>
-		</InputField>
-		<InputField name="СтандартОтчетности" id="6">
-			<DataPath>Отчет.СтандартОтчетности</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="СтандартОтчетностиКонтекстноеМеню" id="7"/>
-			<ExtendedTooltip name="СтандартОтчетностиРасширеннаяПодсказка" id="8"/>
-		</InputField>
 		<UsualGroup name="КомпоновщикНастроекПользовательскиеНастройки" id="9">
 			<Title>
 				<v8:item>
@@ -91,6 +148,7 @@
 				<Field>Отчет.ФлагИспользоватьВыделениеЦветом</Field>
 				<Field>Отчет.СтандартОтчетности</Field>
 				<Field>Отчет.Периодичность</Field>
+				<Field>Отчет.КолвоПериодовДляОсмотраНазад</Field>
 				<Field>Отчет.Дата2</Field>
 				<Field>Отчет.Дата1</Field>
 			</Save>

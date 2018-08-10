@@ -62,6 +62,9 @@
 					<v8:content>Значение</v8:content>
 				</v8:item>
 			</title>
+			<valueType>
+				<v8:TypeId>47ddd2e8-263d-492d-9418-105d435d6bdf</v8:TypeId>
+			</valueType>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
@@ -96,6 +99,9 @@
 					<v8:content>Изм.</v8:content>
 				</v8:item>
 			</title>
+			<valueType>
+				<v8:TypeId>47ddd2e8-263d-492d-9418-105d435d6bdf</v8:TypeId>
+			</valueType>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ВыделятьОтрицательные</dcscor:parameter>
@@ -112,6 +118,14 @@
 					<v8:content>Изм. %</v8:content>
 				</v8:item>
 			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ВыделятьОтрицательные</dcscor:parameter>
@@ -124,7 +138,7 @@
 	</dataSet>
 	<totalField>
 		<dataPath>ЗначениеПоказателя</dataPath>
-		<expression>Максимум(ЗначениеПоказателя)</expression>
+		<expression>Сумма(ЗначениеПоказателя)</expression>
 		<group>Показатель</group>
 	</totalField>
 	<totalField>
@@ -133,7 +147,7 @@
 	</totalField>
 	<totalField>
 		<dataPath>Разница</dataPath>
-		<expression>Максимум(Разница)</expression>
+		<expression>Сумма(Разница)</expression>
 		<group>Показатель</group>
 	</totalField>
 	<totalField>
