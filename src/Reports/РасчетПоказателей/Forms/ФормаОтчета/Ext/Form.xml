@@ -111,6 +111,12 @@
 							<ContextMenu name="КолвоПериодовДляОсмотраНазадКонтекстноеМеню" id="23"/>
 							<ExtendedTooltip name="КолвоПериодовДляОсмотраНазадРасширеннаяПодсказка" id="24"/>
 						</InputField>
+						<CheckBoxField name="ФлагИспользоватьСокращенныйРасчет" id="29">
+							<DataPath>Отчет.ФлагИспользоватьСокращенныйРасчет</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ФлагИспользоватьСокращенныйРасчетКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="ФлагИспользоватьСокращенныйРасчетРасширеннаяПодсказка" id="31"/>
+						</CheckBoxField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -145,6 +151,7 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<Save>
+				<Field>Отчет.ФлагИспользоватьСокращенныйРасчет</Field>
 				<Field>Отчет.ФлагИспользоватьВыделениеЦветом</Field>
 				<Field>Отчет.СтандартОтчетности</Field>
 				<Field>Отчет.Периодичность</Field>
