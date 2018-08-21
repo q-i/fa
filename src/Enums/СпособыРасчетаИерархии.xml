@@ -74,6 +74,42 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="ca5b09e6-289a-457f-af3f-5ef418c34db6">
+				<Properties>
+					<Name>Среднее</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Среднее</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="15727698-bc36-43e3-b0b6-d3d34dd21da6">
+				<Properties>
+					<Name>Минимум</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Минимум</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8d23b6f1-ad0f-40ff-8011-8fc58c125750">
+				<Properties>
+					<Name>Максимум</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Максимум</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>
