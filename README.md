@@ -10,4 +10,6 @@
 
 Краткая документация:
 * [Сборка базы из исходников](docs/install.md)
-* [Ввод данных](docs/data_input.md)
+* [Ввод данных отчётности](docs/entering_report_data.md)
+* [Ввод данных за отчётный год](docs/entering_annual_data.md)
+* [Источники данных](docs/data_sources.md)
