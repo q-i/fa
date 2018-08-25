@@ -101,8 +101,8 @@
 			<Metadata name="Report.ДинамикаКонтрагента.Attribute.СтандартОтчетности" id="dcb89b7b-1395-4cf7-abd6-85fc129f5ab4"/>
 			<Metadata name="Report.ДинамикаКонтрагента.Attribute.ФлагИспользоватьСокращенныйРасчет" id="e38b96a7-33be-4d0e-aace-e2f6c8ccde32"/>
 		</Metadata>
-		<Metadata name="Report.ДинамикаКонтрагента.Form.ФормаОтчета" id="4ee9409c-2a38-4fbd-8a0c-21f79c4c4ba4" configVersion="76e673d04898734f97e19a1e6050529c00000000"/>
-		<Metadata name="Report.ДинамикаКонтрагента.Form.ФормаОтчета.Form" id="4ee9409c-2a38-4fbd-8a0c-21f79c4c4ba4.0" configVersion="b52f8bda2f70744aa5e911c1b0a090ea00000000"/>
+		<Metadata name="Report.ДинамикаКонтрагента.Form.ФормаОтчета" id="4ee9409c-2a38-4fbd-8a0c-21f79c4c4ba4" configVersion="0528d3ec88f4df4796788e35e8aeb69700000000"/>
+		<Metadata name="Report.ДинамикаКонтрагента.Form.ФормаОтчета.Form" id="4ee9409c-2a38-4fbd-8a0c-21f79c4c4ba4.0" configVersion="ea09d163f6ea494c8b022641e9ef6b9400000000"/>
 		<Metadata name="Report.ДинамикаКонтрагента.ObjectModule" id="7859561f-38b8-4dc9-a260-545093592792.0" configVersion="595f29ff96c91e4584f494b3cac5859300000000"/>
 		<Metadata name="Report.ДинамикаКонтрагента.Template.ОсновнаяСхемаКомпоновкиДанных" id="d9ee5e1a-804f-4d52-a50e-d08d208cc411" configVersion="73c93bd56ac2ad48b7e4da22d39ee8ad00000000"/>
 		<Metadata name="Report.ДинамикаКонтрагента.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="d9ee5e1a-804f-4d52-a50e-d08d208cc411.0" configVersion="160b0a2db2cd464fb8abf05d42d3491300000000"/>
@@ -119,8 +119,8 @@
 			<Metadata name="Report.СравнениеКонтрагентов.Attribute.СтандартОтчетности" id="c8479dbf-5e41-460b-b615-503c640a53b1"/>
 			<Metadata name="Report.СравнениеКонтрагентов.Attribute.КолвоПериодовДляОсмотраНазад" id="f860cda4-9bab-4a18-a289-f84df2f33c06"/>
 		</Metadata>
-		<Metadata name="Report.СравнениеКонтрагентов.Form.ФормаОтчета" id="fd07d810-4372-4dc7-808a-0a3ee2498ccf" configVersion="ed6d3292df1dc741a8cd8b4845d945e900000000"/>
-		<Metadata name="Report.СравнениеКонтрагентов.Form.ФормаОтчета.Form" id="fd07d810-4372-4dc7-808a-0a3ee2498ccf.0" configVersion="f4574dbde4442a4a9c87f8374ed1dd9700000000"/>
+		<Metadata name="Report.СравнениеКонтрагентов.Form.ФормаОтчета" id="fd07d810-4372-4dc7-808a-0a3ee2498ccf" configVersion="df890e26f05d0a4c89ffdedd907ae93f00000000"/>
+		<Metadata name="Report.СравнениеКонтрагентов.Form.ФормаОтчета.Form" id="fd07d810-4372-4dc7-808a-0a3ee2498ccf.0" configVersion="81ec54a4c199674b8cb6a2700ab7219c00000000"/>
 		<Metadata name="Report.СравнениеКонтрагентов.ObjectModule" id="e9a6a7b7-1908-404c-9549-2efeb4257cd9.0" configVersion="3286ec1d125a464f902e5705fe68432600000000"/>
 		<Metadata name="Report.СтатистикаВводаДанных" id="a28eeff9-e480-4379-acea-e905d01be50c" configVersion="1e404a459529f34ea71ddbee7b81a1e600000000"/>
 		<Metadata name="Report.СтатистикаВводаДанных.Template.ОсновнаяСхемаКомпоновкиДанных" id="13f4800b-668d-46e4-af9f-fdb756e1a8d7" configVersion="58a4f1391fa23f41a6d02bec0386587600000000"/>
