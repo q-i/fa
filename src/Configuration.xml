@@ -137,9 +137,9 @@
 			<Document>ВводПоказателей</Document>
 			<Enum>Периодичность</Enum>
 			<Enum>СпособыРасчетаИерархии</Enum>
+			<Report>АнализПоказателейСКД</Report>
 			<Report>РасчетПоказателей</Report>
 			<Report>СтатистикаВводаДанных</Report>
-			<Report>АнализПоказателейСКД</Report>
 			<DataProcessor>ЗагрузкаКотировокММВБ</DataProcessor>
 			<InformationRegister>ЗначенияПоказателей</InformationRegister>
 		</ChildObjects>

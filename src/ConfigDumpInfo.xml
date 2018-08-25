@@ -42,7 +42,7 @@
 		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="14b0c249-ca4b-475f-8931-5fed5b737a60.0" configVersion="6255057ae7ec954c86f026cd985ffb9200000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияСервер" id="1f64c794-d146-423e-b88a-19fcf25c4662" configVersion="fd83401819b9c4468d29c03a41df962900000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияСервер.Module" id="1f64c794-d146-423e-b88a-19fcf25c4662.0" configVersion="3092c1ceeb6fe645a75b5474bbfdff3600000000"/>
-		<Metadata name="Configuration.ФинансовыйАнализ" id="58e812d8-fa1b-413b-88c8-963df994874b" configVersion="715e00ff09635c4ea7a0c69cea3ae8b900000000"/>
+		<Metadata name="Configuration.ФинансовыйАнализ" id="58e812d8-fa1b-413b-88c8-963df994874b" configVersion="02ca8c5f524c52408fc8ff0a7d2ef52c00000000"/>
 		<Metadata name="Configuration.ФинансовыйАнализ.HomePageWorkArea" id="abcdbee8-819c-4da1-837c-e93563be24e2.8" configVersion="139504e6e3cb6d4bbcfcef87b02cf07300000000"/>
 		<Metadata name="Constant.РазрешенАвторасчет" id="bf4d18d6-23dc-4818-a381-ba2265b816e1" configVersion="389a55d4d5ce674ba2dc80769db9995d00000000"/>
 		<Metadata name="DataProcessor.ЗагрузкаКотировокММВБ" id="c95a4b81-b900-4af2-b8a6-cbf72cd3f5bc" configVersion="53eb10b2e996e0458bc38e60021abd0f00000000"/>
@@ -117,8 +117,8 @@
 		<Metadata name="Report.РасчетПоказателей.Form.ФормаОтчета" id="4ee9409c-2a38-4fbd-8a0c-21f79c4c4ba4" configVersion="c39bffd354cdcf4eb0e844402f7adc1000000000"/>
 		<Metadata name="Report.РасчетПоказателей.Form.ФормаОтчета.Form" id="4ee9409c-2a38-4fbd-8a0c-21f79c4c4ba4.0" configVersion="3987af908d7c4543ac4d8ed51c61c16000000000"/>
 		<Metadata name="Report.РасчетПоказателей.ObjectModule" id="7859561f-38b8-4dc9-a260-545093592792.0" configVersion="357616a8c3e951449ae8c07d2b85675d00000000"/>
-		<Metadata name="Report.РасчетПоказателей.Template.ОсновнаяСхемаКомпоновкиДанных" id="d9ee5e1a-804f-4d52-a50e-d08d208cc411" configVersion="6d780a952a3efc46b9a3f5c60ec084ba00000000"/>
-		<Metadata name="Report.РасчетПоказателей.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="d9ee5e1a-804f-4d52-a50e-d08d208cc411.0" configVersion="c9ac4ae084d26e4dafe9b925520def3d00000000"/>
+		<Metadata name="Report.РасчетПоказателей.Template.ОсновнаяСхемаКомпоновкиДанных" id="d9ee5e1a-804f-4d52-a50e-d08d208cc411" configVersion="45dd6b186d43654d9c24627d86db154500000000"/>
+		<Metadata name="Report.РасчетПоказателей.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="d9ee5e1a-804f-4d52-a50e-d08d208cc411.0" configVersion="921ef6c4fcecd94780ee7ea36934db1a00000000"/>
 		<Metadata name="Report.СтатистикаВводаДанных" id="a28eeff9-e480-4379-acea-e905d01be50c" configVersion="1e404a459529f34ea71ddbee7b81a1e600000000"/>
 		<Metadata name="Report.СтатистикаВводаДанных.Template.ОсновнаяСхемаКомпоновкиДанных" id="13f4800b-668d-46e4-af9f-fdb756e1a8d7" configVersion="58a4f1391fa23f41a6d02bec0386587600000000"/>
 		<Metadata name="Report.СтатистикаВводаДанных.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="13f4800b-668d-46e4-af9f-fdb756e1a8d7.0" configVersion="92cab336767a1f42b078d7e2370699e600000000"/>
