@@ -127,6 +127,7 @@
 			<CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
+			<CommonModule>ФормированиеОтчетовСервер</CommonModule>
 			<DefinedType>ТипЗначенияПоказателя</DefinedType>
 			<Constant>РазрешенАвторасчет</Constant>
 			<Catalog>ВидыОтчетности</Catalog>
