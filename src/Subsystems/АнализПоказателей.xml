@@ -22,12 +22,12 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВводПоказателей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗначенияПоказателей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.РасчетПоказателей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ДинамикаКонтрагента</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.РазрешенАвторасчет</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Цвета</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаКотировокММВБ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.СтатистикаВводаДанных</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.АнализПоказателейСКД</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.СравнениеКонтрагентов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

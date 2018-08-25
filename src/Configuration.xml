@@ -137,8 +137,8 @@
 			<Document>ВводПоказателей</Document>
 			<Enum>Периодичность</Enum>
 			<Enum>СпособыРасчетаИерархии</Enum>
-			<Report>АнализПоказателейСКД</Report>
-			<Report>РасчетПоказателей</Report>
+			<Report>ДинамикаКонтрагента</Report>
+			<Report>СравнениеКонтрагентов</Report>
 			<Report>СтатистикаВводаДанных</Report>
 			<DataProcessor>ЗагрузкаКотировокММВБ</DataProcessor>
 			<InformationRegister>ЗначенияПоказателей</InformationRegister>
