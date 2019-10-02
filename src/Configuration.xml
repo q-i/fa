@@ -142,6 +142,7 @@
 			<Report>СравнениеКонтрагентов</Report>
 			<Report>СтатистикаВводаДанных</Report>
 			<DataProcessor>ЗагрузкаКотировокММВБ</DataProcessor>
+			<DataProcessor>РабочийСтол</DataProcessor>
 			<InformationRegister>ЗначенияПоказателей</InformationRegister>
 		</ChildObjects>
 	</Configuration>

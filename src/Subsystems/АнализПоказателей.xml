@@ -28,6 +28,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаКотировокММВБ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.СтатистикаВводаДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.СравнениеКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РабочийСтол</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
