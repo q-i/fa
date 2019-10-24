@@ -135,6 +135,43 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
+		<UsualGroup name="ГруппаРасположениеРеквизитов" id="76">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа расположение реквизитов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа расположение реквизитов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаРасположениеРеквизитовРасширеннаяПодсказка" id="77"/>
+			<ChildItems>
+				<CheckBoxField name="УказыватьДатуВТабЧасти" id="78">
+					<DataPath>Объект.УказыватьДатуВТабЧасти</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="УказыватьДатуВТабЧастиКонтекстноеМеню" id="79"/>
+					<ExtendedTooltip name="УказыватьДатуВТабЧастиРасширеннаяПодсказка" id="80"/>
+					<Events>
+						<Event name="OnChange">УказыватьДатуВТабЧастиПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="УказыватьСтандартОтчетностиВТабЧасти" id="81">
+					<DataPath>Объект.УказыватьСтандартОтчетностиВТабЧасти</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="УказыватьСтандартОтчетностиВТабЧастиКонтекстноеМеню" id="82"/>
+					<ExtendedTooltip name="УказыватьСтандартОтчетностиВТабЧастиРасширеннаяПодсказка" id="83"/>
+					<Events>
+						<Event name="OnChange">УказыватьСтандартОтчетностиВТабЧастиПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
 		<Table name="Показатели" id="19">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -214,6 +251,21 @@
 					<ContextMenu name="ПоказателиНомерСтрокиКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ПоказателиНомерСтрокиРасширеннаяПодсказка" id="34"/>
 				</LabelField>
+				<InputField name="ПоказателиДата" id="84">
+					<DataPath>Объект.Показатели.Дата</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПоказателиДатаКонтекстноеМеню" id="85"/>
+					<ExtendedTooltip name="ПоказателиДатаРасширеннаяПодсказка" id="86"/>
+					<Events>
+						<Event name="OnChange">ПоказателиДатаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ПоказателиСтандартОтчетности" id="87">
+					<DataPath>Объект.Показатели.СтандартОтчетности</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПоказателиСтандартОтчетностиКонтекстноеМеню" id="88"/>
+					<ExtendedTooltip name="ПоказателиСтандартОтчетностиРасширеннаяПодсказка" id="89"/>
+				</InputField>
 				<InputField name="ПоказателиПоказатель" id="35">
 					<DataPath>Объект.Показатели.Показатель</DataPath>
 					<EditMode>EnterOnInput</EditMode>

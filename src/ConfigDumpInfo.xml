@@ -56,22 +56,26 @@
 		<Metadata name="DataProcessor.РабочийСтол.Form.Форма" id="9d6e6524-98f3-434c-9553-c29790d46b24" configVersion="20228bc11af679419ed3fdf907530c2800000000"/>
 		<Metadata name="DataProcessor.РабочийСтол.Form.Форма.Form" id="9d6e6524-98f3-434c-9553-c29790d46b24.0" configVersion="e6a9b34f46df0742bad59cbdbfcad1b400000000"/>
 		<Metadata name="DefinedType.ТипЗначенияПоказателя" id="b62a56ca-8ddc-450d-8f3d-7d6bb7c6105c" configVersion="d28e3a8320f1a949bd31b944ffd94fd200000000"/>
-		<Metadata name="Document.ВводПоказателей" id="cb24cdf3-5569-4501-856a-a134d73571ef" configVersion="a00b8270cec33a4a99492fbace71069b00000000">
+		<Metadata name="Document.ВводПоказателей" id="cb24cdf3-5569-4501-856a-a134d73571ef" configVersion="363033e3dad9004898ec1cc02995c07a00000000">
+			<Metadata name="Document.ВводПоказателей.Attribute.УказыватьСтандартОтчетностиВТабЧасти" id="0451647f-dcd7-44e2-b8c5-5557d7707e6f"/>
 			<Metadata name="Document.ВводПоказателей.Attribute.Комментарий" id="06caa707-f69c-48de-b171-0bee6417f5a2"/>
 			<Metadata name="Document.ВводПоказателей.Attribute.СтандартОтчетности" id="13ed111c-15be-463f-b44a-3ca98e0bcf8a"/>
 			<Metadata name="Document.ВводПоказателей.Attribute.Контрагент" id="1b15817c-4703-4803-b001-cce902131791"/>
+			<Metadata name="Document.ВводПоказателей.Attribute.УказыватьДатуВТабЧасти" id="1f6eb6f0-fca9-479f-bb2f-dbcf60f93c05"/>
 			<Metadata name="Document.ВводПоказателей.Attribute.Периодичность" id="2a21aec2-f538-4ff6-996f-91f69760e8f2"/>
 			<Metadata name="Document.ВводПоказателей.TabularSection.Показатели" id="2e5d35fb-84e7-40ef-92ec-136c4a31c39d"/>
 			<Metadata name="Document.ВводПоказателей.Attribute.Множитель" id="4621872a-6cc9-4cf3-9385-43877a55c36a"/>
 			<Metadata name="Document.ВводПоказателей.TabularSection.Показатели.Attribute.ЗначениеПоказателя" id="512bf49d-1991-41d7-bf0f-26d1a49fe308"/>
 			<Metadata name="Document.ВводПоказателей.TabularSection.Показатели.Attribute.Показатель" id="60bf6027-56a4-43cd-a6a6-2a8a51bd5887"/>
+			<Metadata name="Document.ВводПоказателей.TabularSection.Показатели.Attribute.СтандартОтчетности" id="72f9bd68-edfc-4c0d-bd18-ac137367c87a"/>
 			<Metadata name="Document.ВводПоказателей.Attribute.ВидОтчетности" id="a62955b2-44c2-4534-848c-771b4d7bc3c4"/>
 			<Metadata name="Document.ВводПоказателей.TabularSection.Показатели.Attribute.Комментарий" id="a919239e-0ca5-453f-850a-37eadd23c126"/>
 			<Metadata name="Document.ВводПоказателей.Attribute.РазрядностьДробнойЧасти" id="b34df192-4ea5-42d7-96e6-a3b8939739de"/>
+			<Metadata name="Document.ВводПоказателей.TabularSection.Показатели.Attribute.Дата" id="ecedb68e-afe5-4469-aabc-73d28bf723e7"/>
 		</Metadata>
-		<Metadata name="Document.ВводПоказателей.Form.ФормаДокумента" id="f563f6d8-2dce-4a47-8ef5-4fc0bb5589d5" configVersion="3df4340f4fb7fe49bf2d8bd0f6d9dcc600000000"/>
-		<Metadata name="Document.ВводПоказателей.Form.ФормаДокумента.Form" id="f563f6d8-2dce-4a47-8ef5-4fc0bb5589d5.0" configVersion="a88ed816c124bd4e8da46710d5276bc700000000"/>
-		<Metadata name="Document.ВводПоказателей.ObjectModule" id="cb24cdf3-5569-4501-856a-a134d73571ef.0" configVersion="ae945e0b6b21d54a9292af0c2282652900000000"/>
+		<Metadata name="Document.ВводПоказателей.Form.ФормаДокумента" id="f563f6d8-2dce-4a47-8ef5-4fc0bb5589d5" configVersion="a83a11423f6d5e4d993726fe6fb9d53000000000"/>
+		<Metadata name="Document.ВводПоказателей.Form.ФормаДокумента.Form" id="f563f6d8-2dce-4a47-8ef5-4fc0bb5589d5.0" configVersion="32e91692c1827540b17fc45b49525b9e00000000"/>
+		<Metadata name="Document.ВводПоказателей.ObjectModule" id="cb24cdf3-5569-4501-856a-a134d73571ef.0" configVersion="ac73c4f0b701ce419a8b70b2f1c968ec00000000"/>
 		<Metadata name="Enum.Периодичность" id="8750c7e4-c887-42f9-960f-2448a024edce" configVersion="7d698ef9a6c03c4ea7e5162d5c501af000000000">
 			<Metadata name="Enum.Периодичность.EnumValue.Месяц" id="9d436ab2-95cb-4db6-b69b-643cb7f130fd"/>
 			<Metadata name="Enum.Периодичность.EnumValue.Нет" id="d6bc53bc-f979-4274-9a72-2ade549a0999"/>
