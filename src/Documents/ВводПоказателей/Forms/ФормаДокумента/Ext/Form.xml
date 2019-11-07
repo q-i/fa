@@ -43,12 +43,31 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<InputField name="Контрагент" id="7">
-			<DataPath>Объект.Контрагент</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="КонтрагентКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="9"/>
-		</InputField>
+		<UsualGroup name="ГруппаКонтрагент" id="90">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа контрагент</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа контрагент</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКонтрагентРасширеннаяПодсказка" id="91"/>
+			<ChildItems>
+				<InputField name="Контрагент" id="7">
+					<DataPath>Объект.Контрагент</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="9"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаВидТипОтчетности" id="64">
 			<Title>
 				<v8:item>
@@ -115,15 +134,12 @@
 					<ContextMenu name="ПредставлениеМножителяКонтекстноеМеню" id="56"/>
 					<ExtendedTooltip name="ПредставлениеМножителяРасширеннаяПодсказка" id="57"/>
 				</LabelDecoration>
-				<CheckBoxField name="Авторасчет" id="58">
-					<DataPath>РазрешенАвторасчет</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="АвторасчетКонтекстноеМеню" id="59"/>
-					<ExtendedTooltip name="АвторасчетРасширеннаяПодсказка" id="60"/>
-					<Events>
-						<Event name="OnChange">АвторасчетПриИзменении</Event>
-					</Events>
-				</CheckBoxField>
+				<InputField name="Валюта" id="92">
+					<DataPath>Объект.Валюта</DataPath>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ВалютаКонтекстноеМеню" id="93"/>
+					<ExtendedTooltip name="ВалютаРасширеннаяПодсказка" id="94"/>
+				</InputField>
 				<InputField name="РазрядностьДробнойЧасти" id="61">
 					<DataPath>Объект.РазрядностьДробнойЧасти</DataPath>
 					<SpinButton>true</SpinButton>
@@ -152,6 +168,15 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаРасположениеРеквизитовРасширеннаяПодсказка" id="77"/>
 			<ChildItems>
+				<CheckBoxField name="Авторасчет" id="58">
+					<DataPath>РазрешенАвторасчет</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="АвторасчетКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="АвторасчетРасширеннаяПодсказка" id="60"/>
+					<Events>
+						<Event name="OnChange">АвторасчетПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
 				<CheckBoxField name="УказыватьДатуВТабЧасти" id="78">
 					<DataPath>Объект.УказыватьДатуВТабЧасти</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>

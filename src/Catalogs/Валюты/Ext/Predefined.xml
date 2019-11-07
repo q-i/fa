@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.4">
+	<Item id="950ade81-dc3d-4577-a827-9782ea6eacbd">
+		<Name>EUR</Name>
+		<Code>978</Code>
+		<Description>EUR</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4fff85aa-2eab-49f4-a570-a7d8c52c7cc3">
+		<Name>RUB</Name>
+		<Code>643</Code>
+		<Description>RUB</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a1a3d115-a577-4abb-ad20-03391eaa4e8d">
+		<Name>USD</Name>
+		<Code>810</Code>
+		<Description>USD</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

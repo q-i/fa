@@ -129,7 +129,9 @@
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
 			<CommonModule>ФормированиеОтчетовСервер</CommonModule>
 			<DefinedType>ТипЗначенияПоказателя</DefinedType>
+			<Constant>ОсновнаяВалюта</Constant>
 			<Constant>РазрешенАвторасчет</Constant>
+			<Catalog>Валюты</Catalog>
 			<Catalog>ВидыОтчетности</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Показатели</Catalog>
