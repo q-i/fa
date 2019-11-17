@@ -140,8 +140,8 @@
 		<Metadata name="Report.СравнениеКонтрагентов.Form.ФормаОтчета.Form" id="fd07d810-4372-4dc7-808a-0a3ee2498ccf.0" configVersion="f42f8fa03bda814c914119de077a677d00000000"/>
 		<Metadata name="Report.СравнениеКонтрагентов.ObjectModule" id="e9a6a7b7-1908-404c-9549-2efeb4257cd9.0" configVersion="80b619f6be00a541837d766d7a10133e00000000"/>
 		<Metadata name="Report.СтатистикаВводаДанных" id="a28eeff9-e480-4379-acea-e905d01be50c" configVersion="85cb3230bc786849871551b6ab69d09000000000"/>
-		<Metadata name="Report.СтатистикаВводаДанных.Template.ОсновнаяСхемаКомпоновкиДанных" id="13f4800b-668d-46e4-af9f-fdb756e1a8d7" configVersion="1f9f374bbbc62d4e99a95d69cf74288000000000"/>
-		<Metadata name="Report.СтатистикаВводаДанных.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="13f4800b-668d-46e4-af9f-fdb756e1a8d7.0" configVersion="903433999a7a114da67ad8f443d45cbf00000000"/>
+		<Metadata name="Report.СтатистикаВводаДанных.Template.ОсновнаяСхемаКомпоновкиДанных" id="13f4800b-668d-46e4-af9f-fdb756e1a8d7" configVersion="a9de4b81ffb03d408c3f6b06ff5c200d00000000"/>
+		<Metadata name="Report.СтатистикаВводаДанных.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="13f4800b-668d-46e4-af9f-fdb756e1a8d7.0" configVersion="fa5ec8947f0b7a4984ecc16b3f13be9700000000"/>
 		<Metadata name="Subsystem.АнализПоказателей" id="0dd19569-0e8d-4a4a-817a-857078cb3338" configVersion="12a45726c6dc3a498328a4fbcd3d949e00000000"/>
 		<Metadata name="Subsystem.АнализПоказателей.CommandInterface" id="0dd19569-0e8d-4a4a-817a-857078cb3338.1" configVersion="25d945398dabbb4d857febb99b8cf5bc00000000"/>
 	</ConfigVersions>
