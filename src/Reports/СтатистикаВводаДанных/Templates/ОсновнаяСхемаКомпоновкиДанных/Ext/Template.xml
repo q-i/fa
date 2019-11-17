@@ -108,7 +108,9 @@
 	ЗначенияПоказателей.Периодичность = &amp;Периодичность
 {ГДЕ
 	(ЗначенияПоказателей.Период &gt;= &amp;Дата1),
-	(ЗначенияПоказателей.Период &lt;= &amp;Дата2)}
+	(ЗначенияПоказателей.Период &lt;= &amp;Дата2),
+	(&amp;УчитыватьНулевыеЗначения
+			ИЛИ ЗначенияПоказателей.ЗначениеПоказателя &lt;&gt; 0)}
 
 ИНДЕКСИРОВАТЬ ПО
 	Контрагент,
@@ -207,6 +209,20 @@
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаОкончания</expression>
 	</parameter>
+	<parameter>
+		<name>УчитыватьНулевыеЗначения</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Учитывать нулевые значения</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">true</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
@@ -251,6 +267,12 @@
 					<dcscor:parameter>Периодичность</dcscor:parameter>
 					<dcscor:value xsi:type="dcscor:DesignTimeValue">Перечисление.Периодичность.Год</dcscor:value>
 					<dcsset:userSettingID>6100dec1-9707-4755-9c53-421a57c0eea7</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>УчитыватьНулевыеЗначения</dcscor:parameter>
+					<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					<dcsset:userSettingID>4b632f9b-9432-427a-9978-a0f1b6f0b276</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:conditionalAppearance>
