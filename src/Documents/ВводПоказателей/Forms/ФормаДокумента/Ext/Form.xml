@@ -237,6 +237,11 @@
 								<CommandName>Form.Command.ЗаполнитьЦенуАП</CommandName>
 								<ExtendedTooltip name="ПоказателиЗаполнитьЦенуАПРасширеннаяПодсказка" id="72"/>
 							</Button>
+							<Button name="ПоказателиОчиститьКомментарииСтрок" id="95">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ОчиститьКомментарииСтрок</CommandName>
+								<ExtendedTooltip name="ПоказателиОчиститьКомментарииСтрокРасширеннаяПодсказка" id="96"/>
+							</Button>
 						</ChildItems>
 					</Popup>
 				</ChildItems>
@@ -389,6 +394,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаполнитьЦенуАП</Action>
+		</Command>
+		<Command name="ОчиститьКомментарииСтрок" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить комментарии строк</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить комментарии строк</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьКомментарииСтрок</Action>
 		</Command>
 	</Commands>
 </Form>
