@@ -9,6 +9,9 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Контрагент</dataPath>
 			<field>Контрагент</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ВидОтчетности</dataPath>
@@ -29,6 +32,9 @@
 					<v8:content>Стандарт отчетности</v8:content>
 				</v8:item>
 			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Период</dataPath>
@@ -86,6 +92,19 @@
 	Справочник.ВидыОтчетности КАК ВидыОтчетности
 ГДЕ
 	НЕ Контрагенты.ЭтоГруппа
+	И &amp;ВыводитьКонтрагентов = 1
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ЗначенияПоказателей.Контрагент,
+	ЗначенияПоказателей.СтандартОтчетности,
+	ЗначенияПоказателей.Регистратор.ВидОтчетности
+ИЗ
+	РегистрСведений.ЗначенияПоказателей КАК ЗначенияПоказателей
+ГДЕ
+	ЗначенияПоказателей.Периодичность = &amp;Периодичность
+	И &amp;ВыводитьКонтрагентов = 2
 
 ИНДЕКСИРОВАТЬ ПО
 	Контрагент,
@@ -223,6 +242,44 @@
 		<value xsi:type="xs:boolean">true</value>
 		<useRestriction>false</useRestriction>
 	</parameter>
+	<parameter>
+		<name>ВыводитьКонтрагентов</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Выводить контрагентов</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>false</useRestriction>
+		<availableValue>
+			<value xsi:type="xs:decimal">1</value>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Всех</v8:content>
+				</v8:item>
+			</presentation>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="xs:decimal">2</value>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тех, по которым вводилась отчетность</v8:content>
+				</v8:item>
+			</presentation>
+		</availableValue>
+		<use>Always</use>
+	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
@@ -273,6 +330,11 @@
 					<dcscor:parameter>УчитыватьНулевыеЗначения</dcscor:parameter>
 					<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
 					<dcsset:userSettingID>4b632f9b-9432-427a-9978-a0f1b6f0b276</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьКонтрагентов</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">1</dcscor:value>
+					<dcsset:userSettingID>a6a9aef4-89d1-45a2-b09e-93abac6dd259</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:conditionalAppearance>
